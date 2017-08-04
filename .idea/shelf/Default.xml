@@ -1,0 +1,84 @@
+<changelist name="Default" date="1501858565087" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Default/shelved.patch" />
+  <option name="DESCRIPTION" value="Default" />
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/Thread/单例模式/EnumTest$2.class" />
+    <option name="AFTER_PATH" value="bin/fang/Thread/单例模式/EnumTest$2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/EnumTest$2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/Thread/管道流/Main.class" />
+    <option name="AFTER_PATH" value="bin/fang/Thread/管道流/Main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/Main.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/sort/HeapSort.class" />
+    <option name="AFTER_PATH" value="bin/fang/sort/HeapSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/HeapSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/sort/fff.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/sort/Bubble_sort.class" />
+    <option name="AFTER_PATH" value="bin/fang/sort/Bubble_sort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/Bubble_sort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/Thread/单例模式/EnumTest.class" />
+    <option name="AFTER_PATH" value="bin/fang/Thread/单例模式/EnumTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/EnumTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/Thread/单例模式/EnumTest$1.class" />
+    <option name="AFTER_PATH" value="bin/fang/Thread/单例模式/EnumTest$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/EnumTest$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/Thread/suspend/Main.class" />
+    <option name="AFTER_PATH" value="bin/fang/Thread/suspend/Main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/Main1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/Thread/单例模式/Mian.class" />
+    <option name="AFTER_PATH" value="bin/fang/Thread/单例模式/Mian.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/Mian.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/sort/Fast_sort.class" />
+    <option name="AFTER_PATH" value="bin/fang/sort/Fast_sort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/Fast_sort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/commons-codec-1.6.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/sort/Insertion_sort.class" />
+    <option name="AFTER_PATH" value="bin/fang/sort/Insertion_sort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/Insertion_sort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/commons-logging-1.2.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/commons-httpclient-3.1.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/Thread/Lock/测试1/Main.class" />
+    <option name="AFTER_PATH" value="bin/fang/Thread/Lock/测试1/Main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/Main2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/fang/Thread/join后面代码提前执行/Main.class" />
+    <option name="AFTER_PATH" value="bin/fang/Thread/join后面代码提前执行/Main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default/Main3.class" />
+  </binary>
+</changelist>

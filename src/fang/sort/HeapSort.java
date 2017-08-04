@@ -8,7 +8,7 @@ import java.util.Arrays;
 平均时间复杂度	 Theta(nlog n)
 空间复杂度	  O(n) total,  O(1) auxiliary
  * @author fangchao05
- *
+ *本例子 是大顶堆
  */
 public class HeapSort {
     
