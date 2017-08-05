@@ -151,7 +151,7 @@ public class BinTreeTra {
         boolean b = true;
         while (b || stack.size() > 0) {
             if (p != null) {
-                stack.add(p);
+                stack.push(p);
                 p = p.leftChild;
             } else {
                 p = stack.peek();
@@ -164,8 +164,8 @@ public class BinTreeTra {
                     p = stack.pop();
                     printNode(p);
                     r = p;
-                    //p = null; // 节点访问完后 重置p  让其进入下一个循环 弹出一个新的元素
-                   // p = p.rightChild;   不可以
+                    p = null; // 节点访问完后 重置p  让其进入下一个循环 弹出一个新的元素
+                    // p = p.rightChild;   不可以
                 }
             }
             b = false;
@@ -235,6 +235,7 @@ public class BinTreeTra {
         LevelOrder(root);
         System.out.println();
     }
+
 
     public void createBinTree() {
         nodeList = new LinkedList<Node>();
