@@ -3,7 +3,7 @@ package fang.sort;
  * 不稳定   对于相同的两个数，可能由于分在不同的组中而导致它们的顺序发生变化
  * 最优时间复杂度：O(n)
  * 最坏时间复杂度：根据步长不同会有所不同
- * 
+ * 空间复杂度 O(n)
  * 步长                     最坏情况复杂度
  * {n/2^i}       O(n^2)
  * 2^k-1         O(n^3/2)
@@ -16,7 +16,7 @@ public class Shell_Sort {
   public static void sort(int []s){
 	  int n=s.length;
 	  int gap;
-	  int i=0,j=0;
+	  int i,j;
 	 for(gap=n/2;gap>0;gap/=2){
 		 for(i=0;i<gap;i++){
 			
