@@ -56,7 +56,7 @@ public class HeapSort {
     /**
      * 调整索引为 index 处的数据，使其符合堆的特性。
      * 
-     * @param index 需要堆化处理的数据的索引
+     * @param index 需要堆化处理的数据的索引(从哪个点开始调整)
      * @param len 未排序的堆（数组）的长度
      */
     private void maxHeapify(int index,int len){
