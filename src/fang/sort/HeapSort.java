@@ -57,7 +57,7 @@ public class HeapSort {
      * 调整索引为 index 处的数据，使其符合堆的特性。
      * 
      * @param index 需要堆化处理的数据的索引(从哪个点开始调整)
-     * @param len 未排序的堆（数组）的长度
+     * @param len 未排序的堆（数组）的长度 (从0开始 最后一个的索引)
      */
     private void maxHeapify(int index,int len){
         int li = (index << 1) + 1; // 左子节点索引
@@ -80,7 +80,7 @@ public class HeapSort {
      * [0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9]
      */
     public static void main(String[] args) {
-        int[] arr = new int[]{6,7,9,10,11,12};        
+        int[] arr = new int[]{6,1,2,8,5,3,2,1};
         new HeapSort(arr).sort();        
         System.out.println(Arrays.toString(arr));
     }
