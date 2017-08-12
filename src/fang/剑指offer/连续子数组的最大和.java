@@ -46,12 +46,33 @@ public class 连续子数组的最大和 {
     /**
      * 利用动态规划的思想
      *
-     * @param arr
+     * @param arr sum(i)=a(i)           ;i=0 or sum(i-1)<=0
+     *            sum(i)=sum(i-1)+a(i)  ;i!=0 and  sum(i-1)>0
      *
      * @return
      */
     public static int findGreatestSumOfSubArray2(int[] arr) {
-        return 0;
+        int n = arr.length;
+        int max=arr[0];//用来记录最大值
+        int sum[] = new int[n];//用于记录状态
+        for (int i = 0; i < n; i++) {
+            if (i == 0 || sum[i-1] <= 0) {
+                sum[i] = arr[i];//状态转移方程
+            } else if (i != 0 && sum[i-1] > 0) {
+                sum[i] = sum[i - 1] + arr[i];//状态转移方程
+            }
+            if(sum[i]>max){
+                max=sum[i];
+            }
+        }
+//        System.out.println("状态-----------");
+//        for (int m : sum) {
+//            System.out.println(m);
+//
+//        }
+//        System.out.println("状态-----------");
+
+        return max;
     }
 
     public static void main(String[] args) {
@@ -62,5 +83,9 @@ public class 连续子数组的最大和 {
         System.out.println(findGreatestSumOfSubArray(data));
         System.out.println(findGreatestSumOfSubArray(data2));
         System.out.println(findGreatestSumOfSubArray(data3));
+        System.out.println("================================");
+        System.out.println(findGreatestSumOfSubArray2(data));
+        System.out.println(findGreatestSumOfSubArray2(data2));
+        System.out.println(findGreatestSumOfSubArray2(data3));
     }
 }

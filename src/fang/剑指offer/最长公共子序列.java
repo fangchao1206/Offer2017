@@ -4,6 +4,8 @@ package fang.剑指offer;
  * Created by fangchao05 on 2017/8/11.
  * 不要求连续
  * 用动态规划
+ * http://www.hankcs.com/program/algorithm/implementation-and-application-of-nlp-longest-common-subsequence-longest
+ * -common-subsequence-of-java.html
  */
 public class 最长公共子序列 {
 
