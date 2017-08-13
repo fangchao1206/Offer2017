@@ -1,7 +1,5 @@
 package fang.剑指offer;
 
-import junit.framework.TestCase;
-
 /**
  * Created by fangchao05 on 2017/8/11.
  * 要求连续

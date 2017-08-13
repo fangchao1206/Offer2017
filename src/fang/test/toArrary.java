@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	list.add(new Long(3));
 	list.add(new Long(4));  
 Long[] ll=	new Long[3];
-	Long[] l = (Long[])list.toArray(ll );//这个语句会出现ClassCastException
+	Long[] l =  list.toArray( new Long[5] );//这个语句会出现ClassCastException
 	for(int i=0; i<l.length;i++)
 		 System.out.println(l[i] ); 
 	 System.out.println("====");
