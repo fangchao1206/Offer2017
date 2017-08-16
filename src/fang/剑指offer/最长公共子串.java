@@ -1,10 +1,12 @@
 package fang.剑指offer;
 
+import java.util.HashMap;
+import java.util.Hashtable;
+
 /**
  * Created by fangchao05 on 2017/8/11.
  * 要求连续
- * http://www.hankcs.com/program/algorithm/implementation-and-application-of-nlp-longest-common-subsequence-longest
- * -common-subsequence-of-java.html
+ * http://www.hankcs.com/program/algorithm/implementation-and-application-of-nlp-longest-common-subsequence-longest-common-subsequence-of-java.html
  */
 public class 最长公共子串 {
 
