@@ -1,6 +1,5 @@
 package fang.剑指offer;
 
-import fang.Thread.单例模式.MyObject_序列化;
 
 /**
  * Created by fangchao05 on 2017/8/1.

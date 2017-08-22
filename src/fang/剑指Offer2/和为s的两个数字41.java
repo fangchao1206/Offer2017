@@ -14,6 +14,7 @@ import java.util.List;
  * 的数字的时候，我们可以选择较大数字前面的数字，因为排在数组前面的数字要小一些。
  */
 public class 和为s的两个数字41 {
+    //自己写的 双重循环不好
     public static void findNumbersWithSum(int[] data, int sum) {
         for (int j = 1; j < data.length; j++) {
             for (int i = 0; i < j; i++) {
@@ -24,6 +25,12 @@ public class 和为s的两个数字41 {
         }
     }
 
+    /**
+     * 从两边向中间靠拢
+     * @param data
+     * @param sum
+     * @return
+     */
     public static List<Integer> findNumbersWithSum1(int[] data, int sum) {
         List<Integer> result = new ArrayList<>(2);
 
