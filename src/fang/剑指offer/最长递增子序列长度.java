@@ -1,5 +1,10 @@
 package fang.剑指offer;
 
+import java.lang.reflect.Array;
+import java.util.AbstractList;
+import java.util.ArrayList;
+import java.util.LinkedList;
+
 /**
  * 用动态规划的方法
  * Created by fangchao05 on 2017/8/11.
@@ -41,6 +46,6 @@ public class 最长递增子序列长度 {
                 8,9,10,1,2,8,10,5
         };
 
-        System.out.println(getLongestSubSeq(A));
+        System.out.println("max="+getLongestSubSeq(A));
     }
 }
